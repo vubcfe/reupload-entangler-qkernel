@@ -1,0 +1,6 @@
+confirm: 300 jobs, 10 data sets
+C1 singular - ladder: mean -2.79, 90% CI [-5.53, -1.12], supported = True, Wilcoxon p = 0.0020, positive in 0/10
+C2 full-rank - ladder: mean -0.15, 90% CI [-0.45, +0.12], supported = True, Wilcoxon p = 0.6953, positive in 4/10
+C3 singular - full-rank: mean -2.64, one-sided Wilcoxon p = 0.0010
+C4 mechanism: within-data-set Spearman(d, loss) [-0.7  -0.19 -0.33 -0.39 -0.01 -0.12 -0.05 -0.02 -0.24 -0.61]; negative in 10/10, sign test p = 0.0010
+   pooled Spearman -0.40

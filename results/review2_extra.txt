@@ -1,0 +1,5 @@
+C1 per data set: {'balance': np.float64(-15.44), 'diabetes': np.float64(-0.9), 'heart': np.float64(-1.2), 'ilpd': np.float64(-0.91), 'ionosphere': np.float64(-1.07), 'pc1': np.float64(-0.47), 'phoneme': np.float64(-0.82), 'sonar': np.float64(-1.84), 'vehicle': np.float64(-3.08), 'wdbc': np.float64(-2.21)}
+C1 median -1.13; mean without balance -1.39; leave-one-out means range [-3.05, -1.39]
+C2 per full-rank arm (minus ladder): min -0.83 max 0.31, below ladder 15/20
+C2 arm effect vs rho: Spearman 0.65
+H1 member SD observed 0.434, permutation-null mean 0.432, noise-corrected sqrt(max(0,o^2-n^2)) = 0.042

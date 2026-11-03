@@ -1,0 +1,9 @@
+remedy: 460 jobs, 23 data sets
+R1 singular: geometric - uniform: mean +2.27, 90% CI [+1.37, +3.43], supported = True, Wilcoxon p = 0.0000, positive in 23/23
+R2 singular geometric - uniform ladder: mean +0.08, 90% CI [-0.15, +0.31], supported = True, Wilcoxon p = 0.4820, positive in 10/23
+R3 full-rank: geometric - uniform: mean +0.08, 90% CI [-0.01, +0.18], supported = True, Wilcoxon p = 0.3765, positive in 11/23
+R4 ladder: geometric - uniform: mean +0.03, 90% CI [-0.25, +0.30], supported = True, Wilcoxon p = 0.8583, positive in 10/23
+(reported) singular uniform - uniform ladder: mean -2.19, 90% CI [-3.32, -1.29], supported = None, Wilcoxon p = 0.0000, positive in 1/23
+R5 full-rank uniform arms: Spearman(rho, effect) = +0.46, one-sided permutation p = 0.0880, supported = False
+   all 31 uniform arms: Spearman +0.82
+   geometric arms: Spearman +0.39, rho range [0.200, 0.913]

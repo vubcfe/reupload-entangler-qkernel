@@ -1,0 +1,18 @@
+            p_member   surr  ...  dist_member  dist_surr
+data                         ...                        
+balance         0.63  95.93  ...         0.03       0.03
+diabetes        0.61  68.65  ...         0.03       0.02
+heart           0.59  84.83  ...         0.03       0.03
+ilpd            0.43  66.82  ...         0.02       0.02
+ionosphere      0.20  86.36  ...         0.03       0.02
+pc1             0.83  72.10  ...         0.01       0.01
+phoneme         0.87  81.23  ...         0.03       0.02
+sonar           0.37  79.70  ...         0.03       0.02
+vehicle         0.55  57.80  ...         0.03       0.03
+wdbc            0.76  95.04  ...         0.03       0.02
+
+[10 rows x 9 columns]
+
+H1 pooled member-effect p = 0.84 | split-half Spearman per data set: [ 0.29  0.12  0.02  0.26  0.77 -0.2  -0.19  0.37 -0.13 -0.12] mean 0.12
+H2 selected member - selected surrogate: mean -0.11, data sets won 6/10, Wilcoxon p 0.846
+ladder - surrogate: -0.46 | selected member - surrogate: -0.30

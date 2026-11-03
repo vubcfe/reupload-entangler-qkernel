@@ -1,0 +1,5 @@
+data/
+results/classes.pkl
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,25 @@
+n4L2: 23 data sets, 184 jobs
+  G1 singular - ladder: -2.82 [-4.45, -1.53] supported=True positive 3/23
+  G2 singular geometric - uniform: +2.78 [+1.56, +4.29] supported=True positive 21/23
+     full-rank - ladder: +0.10 [-0.29, +0.48] supported=None positive 11/23
+     singular geometric - ladder: -0.03 [-0.40, +0.32] supported=None positive 11/23
+   Spearman(rho, effect) over uniform arms: +0.80
+n4L4: 23 data sets, 184 jobs
+  G1 singular - ladder: -4.10 [-6.01, -2.51] supported=True positive 3/23
+  G2 singular geometric - uniform: +4.42 [+3.01, +6.18] supported=True positive 23/23
+     full-rank - ladder: +0.18 [-0.25, +0.58] supported=None positive 15/23
+     singular geometric - ladder: +0.32 [-0.19, +0.84] supported=None positive 15/23
+   Spearman(rho, effect) over uniform arms: +0.86
+n4L6: 23 data sets, 184 jobs
+  G1 singular - ladder: -4.56 [-6.34, -3.01] supported=True positive 2/23
+  G2 singular geometric - uniform: +4.64 [+3.16, +6.43] supported=True positive 23/23
+     full-rank - ladder: -0.41 [-0.88, +0.08] supported=None positive 8/23
+     singular geometric - ladder: +0.08 [-0.39, +0.57] supported=None positive 10/23
+   Spearman(rho, effect) over uniform arms: +0.91
+n6L3: 17 data sets, 136 jobs
+  G1 singular - ladder: -0.67 [-1.27, -0.10] supported=True positive 4/17
+  G2 singular geometric - uniform: +1.24 [+0.74, +1.74] supported=True positive 14/17
+     full-rank - ladder: +0.48 [+0.10, +0.91] supported=None positive 11/17
+     singular geometric - ladder: +0.57 [+0.28, +0.87] supported=None positive 14/17
+   Spearman(rho, effect) over uniform arms: +0.81
+G3 n=6 share of singular entanglers (20000 uniform samples of GL(6,2)): {2: '0.4%', 3: '1.5%', 4: '2.5%', 6: '6.7%'}

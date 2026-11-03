@@ -1,0 +1,11 @@
+390 jobs, 26 cells, 13 data sets
+H1 within class: permutation p = 0.353; member SD mean 0.43, 90% CI [0.34, 0.54]; supported = False
+H2 between classes: permutation p = 0.000; member SD mean 1.41, 90% CI [1.00, 1.87]; supported = False
+H3 design - ladder: mean -0.05, 90% CI [-0.22, +0.13], equivalent(±1) = True, Wilcoxon p = 0.635, positive in 5/13 data sets
+H4 search gain at fixed c=1 (D_fix): mean +0.21, 90% CI [-0.33, +0.76], equivalent(±1) = True, Wilcoxon p = 0.455, positive in 8/13 data sets
+H4 search gain with matched bandwidth (D_bw): mean -0.00, 90% CI [-0.30, +0.29], equivalent(±1) = True, Wilcoxon p = 0.850, positive in 7/13 data sets
+H4 D_fix - D_bw: mean +0.21, one-sided Wilcoxon p = 0.271
+best fixed-scale search - best matched search: mean -2.26, 90% CI [-3.24, -1.33], equivalent(±1) = False, Wilcoxon p = 0.000, positive in 1/13 data sets
+Secondary: Spearman(dist, acc) median +0.02, negative in 11/26, sign test p = 0.837
+ladder - surrogate: mean -0.14, 90% CI [-0.36, +0.08], equivalent(±1) = True, Wilcoxon p = 0.339, positive in 4/13 data sets
+selected surrogate family - selected T1 member: mean +0.15, 90% CI [-0.04, +0.34], equivalent(±1) = True, Wilcoxon p = 0.305, positive in 7/13 data sets

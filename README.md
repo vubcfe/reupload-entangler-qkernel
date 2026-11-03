@@ -36,7 +36,8 @@ python src/classes.py         # enumerates all 20160 four-qubit entanglers into 
 | `src/general.py` | L ∈ {2, 4, 6} at n = 4, and n = 6 at L = 3, G1–G2 (`plans/PREREG_GENERAL.md`) |
 | `src/shots.py` | Finite-shot kernels, S1–S2 (`plans/PREREG_SHOTS.md`) |
 | `src/analyze_general_shots.py` | Analysis for the generalization and shot studies |
-| `src/figures.py` | Figures 1 and 2 |
+| `src/figures.py` | Result figures (remedy study and conditioning) |
+| `src/fig_data.py` | Data overview figure (features, examples, classes, PCA variance kept) |
 | `results/` | Per-split JSON for every study, and the analysis outputs (`*_analysis.txt`) |
 
 ## Reproducing the results

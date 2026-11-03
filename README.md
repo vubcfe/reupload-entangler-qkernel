@@ -2,7 +2,7 @@
 
 Code, analysis plans and per-split results for the paper *Which entangler matters in a data re-uploading quantum
 kernel? Singular metrics, a provably full-rank layer schedule, and matched-bandwidth tests over all CNOT feature maps*
-(Cao Vu Bui).
+(Cao Vu Bui, Van-Nam Nguyen, Hoang-Anh-Vu Nguyen, Thien-Nhat-Quang Le).
 
 The circuit has L layers of single-qubit R_Z then R_X encodings, with layer scales w_l, each followed by a CNOT-only
 entangler A ∈ GL(n, 2). At small bandwidth the fidelity kernel matches a Gaussian kernel with metric
